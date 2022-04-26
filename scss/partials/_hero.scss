@@ -1,0 +1,38 @@
+.container-afiche{
+    background-color: $primary-color;
+    position: relative;
+    justify-content: center;
+}
+
+.container-hero{
+    background-color: $primary-color;
+    position: relative;
+    justify-content: center;
+    height: 40vh;
+}
+
+.container-hero h1{
+    color: $secondary-color;
+    
+}
+
+.container-hero p{
+    color: $color-black;
+}
+
+.centered{
+    position: relative;
+    top: 40%;
+    width: 80%;
+    max-width: 1140px;
+    margin: auto;
+    align-items: center;
+}
+
+.container-afiche img { 
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}

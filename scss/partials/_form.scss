@@ -1,0 +1,77 @@
+.form-field{
+    width: 50%;
+}
+
+.form-control{
+    height: calc(1.5em + 1.375rem + 5px);
+    padding: 0.6875rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: 'Barlow';
+    width: 100%;
+    background-color: $color-white;
+
+}
+
+#Mensaje{
+    height:200px;
+    width: 100%;
+
+}
+
+.form-column{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+}
+
+.message{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
+#form-field1{
+    grid-area: 1 / 1 / 2 / 2 ;
+
+}
+
+#form-field2{
+    grid-area: 1 / 2 / 2 / 3 ;
+
+}
+
+#form-field3{
+    grid-area: 2 / 1 / 3 / 2 ;
+
+}
+
+#form-field4{
+    grid-area: 2 / 2 / 3 / 3 ;
+
+}
+
+.grid-form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 80px;
+    grid-gap: 25px;
+}
+
+.grid-form .form-field{
+    height: 100%;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}

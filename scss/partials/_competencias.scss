@@ -1,0 +1,56 @@
+.competencia-container{
+    @include flex (flex, center, center);
+	flex-direction: column; 
+}
+
+.competencia {
+	background-color: $color-white;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 80%;
+}
+
+.competencia:hover {
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05, 1.05);
+    transition: all 0.2s ease-in;
+
+}
+
+.competencia h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.competencia h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.competencia-preview {
+	background-color: $secondary-color;
+	color: $color-white;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.competencia-preview a {
+	color: $color-white;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.competencia-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}

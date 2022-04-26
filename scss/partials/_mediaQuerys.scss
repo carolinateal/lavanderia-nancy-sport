@@ -1,0 +1,90 @@
+@media screen and (max-width:767px) {
+
+    .grid-galeria{
+        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .centered{
+        top: 20%;
+
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1140px) {
+
+    .grid-galeria{
+        grid-template-columns: 50% 50%;
+    }
+    .img1{
+        grid-area: 1 / 1 / 2 / 2;
+    
+    }
+    .img2{
+        grid-area: 1 / 2 / 2 / 3;
+    
+    }
+    
+    .img3{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .img4{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    
+    .img5{
+        grid-area: 3 / 1 / 4 / 4;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+
+    .grid-conocenos{
+        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caja1{
+        grid-area: 1 / 1 / 1/ 2;
+    }
+    
+    #caja2{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    .grid-form{
+        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .grid-form .form-field{
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:1140px) {
+
+    .competencia{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .competencia-preview{
+        max-width: none;
+    }
+}

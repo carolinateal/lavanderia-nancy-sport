@@ -1,0 +1,23 @@
+{
+  "name": "patagonia-voley",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollo web CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinateal/patagonia-voley.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinateal/patagonia-voley/issues"
+  },
+  "homepage": "https://github.com/carolinateal/patagonia-voley#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

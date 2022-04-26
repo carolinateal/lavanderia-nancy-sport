@@ -1,0 +1,11 @@
+/*
+$display: (
+    color: blue,
+    bg-color: red,
+    tamaño-fuente: 20px,
+    );
+
+header {
+    background-color: map-get($display, tamaño-fuente)
+}
+*/

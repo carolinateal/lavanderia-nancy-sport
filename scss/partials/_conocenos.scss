@@ -1,0 +1,42 @@
+.grid-conocenos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 400px;
+    grid-gap: 50px;
+    /*flex-wrap: wrap;
+    align-items: center;
+    align-content: center;*/
+    max-width: 1140px;
+    @extend %wrapped;
+
+}
+
+.caja{
+    background-color: rgb(230, 247, 247);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 350px;
+ 
+}
+
+.caja h2{
+    padding: 10px;
+}
+
+.caja img{
+    width: 200px;
+    border-radius: 5px;
+    margin: 15px;
+
+
+}
+
+.caja p{
+    align-self: center;
+    overflow: hidden;
+}

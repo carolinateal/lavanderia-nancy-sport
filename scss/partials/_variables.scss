@@ -1,0 +1,14 @@
+$primary-color: #ede669;
+$secondary-color: #d8673d;
+$color-white: #ffffff;
+$color-black:#1f0a03;
+$primary-transparency: rgba(236,226,97,.2);
+$secondary-transparency: rgba(216,103,60,.2);
+
+
+@mixin flex ($display, $horizontal, $vertical){
+    display: $display;
+    justify-content: $horizonal;
+    align-items: $verical;
+}
+
