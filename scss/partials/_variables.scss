@@ -5,10 +5,14 @@ $color-black:#1f0a03;
 $primary-transparency: rgba(236,226,97,.2);
 $secondary-transparency: rgba(216,103,60,.2);
 
-
-@mixin flex ($display, $horizontal, $vertical){
+/*
+@mixin flex ($display, $horizontal, $vertical) {
     display: $display;
-    justify-content: $horizonal;
+    justify-content: $horizontal;
     align-items: $verical;
-}
+}*/
 
+@mixin center ($horizontal, $vertical){
+    align-content: $horizontal;
+    align-items: $vertical;
+}
