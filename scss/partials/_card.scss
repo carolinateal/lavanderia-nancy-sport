@@ -12,7 +12,10 @@
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 300px;
-
+    background-color: $color-white !important;
+    @media screen and (max-width:767px) {
+        margin: 10px 0px 10px 0px;
+    }
 }
 
 .card:hover{
@@ -45,6 +48,3 @@
     margin: 0 0 40px;
 }
 
-.card {
-    background-color: $color-white !important
-}

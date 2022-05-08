@@ -14,3 +14,18 @@ footer img {
 .row-2 {
     background-color: $primary-color !important;
 }
+
+footer a:hover{
+    color: $secondary-color;
+}
+
+footer .nav-link:hover {
+    color: $secondary-color !important;
+
+}
+
+.copyright p{
+    font-size: 1rem;
+    padding-top: 50px;
+
+}

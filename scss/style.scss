@@ -83,6 +83,8 @@ a:hover{
     color: $primary-color;
 }
 
+
+
 .contenedor-verde{
     width: 100%;
     background-color: #f8f9fa;
@@ -91,6 +93,13 @@ a:hover{
     box-sizing: border-box;
     padding: 30px;
     display: block;
+    @media screen and (max-width:767px) {
+        padding: 20px;
+    }
+}
+
+.center {
+    @include center (center, center);
 }
 
 .contenedor-blanco{
@@ -101,6 +110,9 @@ a:hover{
     box-sizing: border-box;
     padding: 30px;
     display: block;
+    @media screen and (max-width:767px) {
+        padding: 20px;
+    }
 }
 
 .caja-blanca{
@@ -115,6 +127,10 @@ a:hover{
     box-sizing: border-box;
     border-radius: 10px;
     padding: 30px;
+    @media screen and (max-width:767px) {
+        width: 100%;
+        padding: 20px;
+    }
 }
 
 .caja-verde{
@@ -129,7 +145,12 @@ a:hover{
     box-sizing: border-box;
     border-radius: 10px;
     padding: 30px;
+    @media screen and (max-width:767px) {
+        width: 100%;
+        padding: 20px;
+    }
 }
+
 
 iframe{
     display: flex;
@@ -138,10 +159,17 @@ iframe{
     border-radius: 10px;
     align-content: center;
     margin: auto;
+    @media screen and (max-width:767px) {
+        max-height: 400px;
+    }
 }
 
 iframe .trailer {
     width: 80%;
+    @media screen and (max-width:767px) {
+        width: 100%;
+    }
+    
 }
 
 .encabezado-caja{
@@ -158,12 +186,20 @@ iframe .trailer {
 .button{
     background: $secondary-color;
     color: $color-white;
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
     font-size: 1rem;
     border-radius: 5px;
     border: none;
     font-family: 'Barlow';
     align-content: center;
+}
+
+.button:hover {
+	/*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);*/
+    transform: scale(1.03, 1.03);
+    transition: all 0.2s ease-in;
+    color: rgba(0,0,0,.55);
+    background-color: $primary-color;
 }
 
 p{

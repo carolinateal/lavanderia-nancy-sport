@@ -28,6 +28,7 @@
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
+
     .button{
         margin-left: 20px;
         font-family: Dutch;
@@ -41,6 +42,7 @@
     }
     
 }
+
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: $secondary-color;
@@ -60,8 +62,11 @@
     justify-content: center;
     font-family: Dutch;
 
+
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1.5rem;
+    
 }
+
